@@ -1,0 +1,118 @@
+body {
+  font-family: "Lucida Sans", Verdana, sans-serif;
+  background-color: rgb(252, 246, 213);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(252, 216, 75);
+
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.quote{
+  color: rgb(252, 216, 75);
+}
+
+#header {
+  background-color: rgb(208, 89, 58);
+  height: 125px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center img {
+  width: 330px;
+  height: 330px;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+}
+
+.quote {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu li {
+  display: inline;
+  margin: 180px;
+  font-size: 30px;
+}
+
+.menu li :hover {
+  font-weight: bold;
+  color: rgb(208, 89, 58);
+}
+
+.isi :first-letter {
+  color: rgb(208, 89, 58);
+  font-size: 40px;
+}
+
+.all {
+  background-color: rgb(252, 246, 213);
+  border: 4px dashed rgb(208, 89, 58);
+  border-radius: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+}
+
+.koleksi {
+  display: flex;
+  justify-content: center;
+}
+
+.koleksi img {
+  width: 330px;
+  height: 330px;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+}
+
+.promo {
+  text-align: center;
+  color: rgb(252, 216, 75);
+  background-color: rgb(208, 89, 58);
+  border-radius: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+}
+
+.ec {
+  font-size: 30px;
+  justify-content: center;
+  background-color: rgb(252, 216, 75);
+  text-align: center;
+  font-weight: bold;
+  color: rgb(208, 89, 58);
+  border-radius: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+  padding-bottom: 10px;
+}
+
+.ec li {
+  
+  display: inline;
+  justify-content: center;
+  font-size: 30px;
+  margin: 160px;
+ 
+}
+
+.ec li :hover {
+  font-weight: bold;
+  color: rgb(208, 89, 58);
+}

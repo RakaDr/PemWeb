@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Dollar</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace; /* Font monospace untuk tampilan hacker */
+            background-color: #1e1e1e; /* Warna latar belakang gelap */
+            color: #00ff00; /* Warna teks hijau neon */
+            margin: 0;
+            padding: 20px;
+        }
+    
+        h3 {
+            color: #00ff00; /* Warna hijau neon */
+            border-bottom: 1px solid #00ff00; /* Garis bawah */
+            padding-bottom: 5px;
+        }
+    
+        input[type="number"] {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid #00ff00; /* Border hijau neon */
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            background-color: #2e2e2e; /* Latar belakang input gelap */
+            color: #00ff00; /* Teks hijau neon */
+        }
+    
+        input[type="number"]::placeholder {
+            color: #00ff00; /* Placeholder hijau neon */
+            opacity: 0.7; /* Opacity untuk placeholder */
+        }
+    
+        p {
+            font-size: 18px;
+        }
+    
+        .result {
+            font-weight: bold;
+            font-size: 20px;
+            color: #00ff00; /* Hasil hijau neon */
+            margin-top: 10px;
+        }
+    
+        .container {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #2e2e2e; /* Latar belakang kontainer gelap */
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 255, 0, 0.5); /* Bayangan hijau neon */
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Menghitung Kurs Rupiah ke Dollar</h3>
+    <input type="number" id="rupiahNumber" placeholder="Masukkan nilai uang anda" onkeyup="hitungKursRupiah()" style="width: 200px;">
+    <p>Nilai Dollar $ <span id="dollar">0</span></p>
+    
+    <h3>Menghitung Kurs Dollar ke Rupiah</h3>
+    <input type="number" id="dollarNumber" placeholder="Masukkan nilai uang anda" onkeyup="hitungKursDollar()" style="width: 200px;">
+    <p>Nilai Rupiah Rp.<span id="rupiah">0</span></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>

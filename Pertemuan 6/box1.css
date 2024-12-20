@@ -1,0 +1,34 @@
+h1{
+    font-family: arial;
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient( pink, rgb(186, 120, 131));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.container{
+    display: flex;
+    border-color: mediumaquamarine aquamarine aqua mediumseagreen;
+    
+}
+
+.box1{
+    background-color: pink;
+}
+.box2{
+    background-color: rgb(241, 181, 191);
+}
+.box3{
+    background-color: rgb(210, 141, 153);
+}
+.box4{
+    background-color: rgb(186, 120, 131);
+}
+
+.kotak{
+    height: 670px;
+    width: 200px;
+    border: solid;
+    margin: auto;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator 2</title>
+    <script>
+        function hitung() {
+            let Bil1 = parseFloat(document.getElementById("bil1").value); // ambil nilai dari input bil1 dan konversi ke angka
+            let Bil2 = parseFloat(document.getElementById("bil2").value); // ambil nilai dari input bil2 dan konversi ke angka
+            let operator = document.getElementById("operator").value; // ambil nilai dari input operator
+            let hasil = 0; // inisialisasi hasil dengan 0
+
+            switch (operator) {
+                case "+":
+                    hasil = Bil1 + Bil2;
+                    break;
+                case "-":
+                    hasil = Bil1 - Bil2;
+                    break;
+                case "*":
+                    hasil = Bil1 * Bil2;
+                    break;
+                case "/":
+                    hasil = Bil1 / Bil2;
+                    break;
+            }
+            document.getElementById("hasil").innerHTML = hasil; // cetak hasil
+        }
+    </script>
+</head>
+<body>
+   <h2>Kalkulator</h2>
+   <form action="">
+    Bilangan 1 : <input type="text" id="bil1" name="bil1">
+    <br>
+    Bilangan 2 : <input type="text" id="bil2" name="bil2">
+    <br>
+    Operator :
+    <select name="" id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option> <!-- Tambahkan tanda * di sini -->
+        <option value="/">/</option>
+    </select>
+    <br>
+    <input type="button" value="hitung" onclick="hitung()">
+    <br>
+    Hasil Operasi : <span id="hasil"></span>
+   </form>
+</body>
+</html>

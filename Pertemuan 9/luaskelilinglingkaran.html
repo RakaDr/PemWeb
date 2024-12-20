@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Luas dan Keliling Lingkaran</title>
+</head>
+<body>
+    <h1>Hitung Luas dan Keliling Lingkaran</h1>
+    <label for="radius">Masukkan Jari-jari Lingkaran (r): </label>
+    <input type="number" id="radius" placeholder="Jari-jari" required>
+    <button onclick="hitung()">Hitung</button>
+
+    <h2>Hasil:</h2>
+    <p id="luas"></p>
+    <p id="keliling"></p>
+
+    <script>
+        function hitung() {
+            // Mengambil nilai jari-jari dari input
+            const radius = parseFloat(document.getElementById("radius").value);
+            
+            // Memastikan jari-jari adalah angka positif
+            if (radius <= 0) {
+                alert("Jari-jari harus lebih besar dari 0.");
+                return;
+            }
+
+            // Menghitung luas dan keliling
+            const luas = Math.PI * radius * radius; // Luas = πr²
+            const keliling = 2 * Math.PI * radius; // Keliling = 2πr
+
+            // Menampilkan hasil
+            document.getElementById("luas").innerText = "Luas Lingkaran: " + luas.toFixed(2);
+            document.getElementById("keliling").innerText = "Keliling Lingkaran: " + keliling.toFixed(2);
+        }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung 2 Bilangan</title>
+    <style>
+        body {
+            background-color: #000; /* Latar belakang hitam */
+            color: #00ff00; /* Teks hijau */
+            font-family: 'Courier New', Courier, monospace; /* Font monospace */
+            text-align: center; /* Rata tengah */
+            padding: 50px; /* Jarak dalam */
+        }
+        input[type="number"], input[type="text"] {
+            background-color: #111; /* Latar belakang input gelap */
+            color: #00ff00; /* Teks hijau */
+            border: 1px solid #00ff00; /* Border hijau */
+            padding: 10px; /* Jarak dalam input */
+            width: 200px; /* Lebar input */
+            font-size: 16px; /* Ukuran font */
+        }
+        input[type="text"][readonly] {
+            background-color: #222; /* Latar belakang hasil gelap */
+        }
+        h1 {
+            font-size: 24px; /* Ukuran font judul */
+        }
+    </style>
+</head>
+<body>
+    <h1>Hitung 2 Bilangan</h1>
+    <h3>Penjumlahan</h3>
+    <input type="number" id="bil1" placeholder="Masukkan bilangan 1" onkeyup="hitungBil()" value="0">
+    +
+    <input type="number" id="bil2" placeholder="Masukkan bilangan 2" onkeyup="hitungBil()" value="0">
+    =
+    <input type="text" id="hasil" readonly>
+    <script src="soal4.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+body {
+  background-color: rgb(252, 246, 213);
+  font-family: "Lucida Sans", Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(208, 89, 58);
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.1);
+  
+
+}
+
+p {
+  text-align: justify;
+  width: fit-content;
+  font-size: 1em;
+  text-indent: 3em;
+  
+}
+
+.center {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gmr{
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+}
+
+
+
+.foto {
+ 
+  display: flex;
+  justify-content: center;
+}
+
+.foto img {
+  width: 23%;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+}
+
+.cod {
+  margin: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.cod p {
+  background-color: rgb(252, 216, 75);
+  border: 1px dotted rgb(208, 89, 58);
+  text-align: center;
+  font-weight: bold;
+  color: rgb(208, 89, 58);
+  border-radius: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+}
+
+.center  {
+  display: block;
+  align-items: center;
+  width: 20%;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.promo {
+  text-align: center;
+  color: rgb(252, 216, 75);
+  background-color: rgb(208, 89, 58);
+  border-radius: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+}
+
+#tombol {
+  text-align: center;
+  color: rgb(252, 216, 75);
+  background-color: rgb(208, 89, 58);
+  border-radius: 20px;
+  font-size: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+
+  
+
+}
+
+
+
+.tomb {
+  display: flex;
+  justify-content: center;
+
+}
+
+.item {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 130px;
+ 
+}
+
+.item span {
+  font-weight: bold;
+}
+
+.khasiat {
+  padding-top: 1px;
+  background-color: rgb(208, 89, 58);
+  color: rgb(252, 216, 75);
+  margin-bottom: 20px;
+  border-radius: 20px; 
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+}
+
+.khasiat h3{
+  margin-left: 20px;
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.no1 {
+  top: 20px;
+  left: 20px;
+}
+.no2 {
+  top: 80px;
+  left: 20px;
+}
+.no3 {
+  top: 20px;
+  right: 20px;
+}
+.no4 {
+  top: 80px;
+  right: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+}
+
+th, td {
+  border: 1px solid rgb(0, 0, 0);
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: rgb(208, 89, 58);
+  color:  rgb(252, 246, 213);
+}
+
+
+td {
+  background-color: rgb(252, 246, 213);
+}
